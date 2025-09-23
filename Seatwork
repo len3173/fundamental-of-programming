@@ -1,1 +1,36 @@
+url: https://onlinegdb.com/qOwScV_Dij
 
+#include <stdio.h>
+
+int main() {
+    int grade;
+    
+   printf("enter your grade (0-100):");
+   scanf("%d" , &grade);
+   
+   switch (grade / 10) {
+     case 10:
+     case 9:
+   printf("A 100-90");
+   break;
+     case 8:
+   printf("B 89-80");
+   break;
+     case 7:
+    printf("C 79-70");
+    break;
+     case 6:
+     case 5:
+     case 4:
+     case 3:
+     case 2:
+     case 1:
+     case 0:
+    printf("failed 69-0");
+    break;
+    defoult:
+    printf("invalid grade!");
+  }
+
+    return 0;
+}l
