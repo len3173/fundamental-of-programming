@@ -1,0 +1,19 @@
+CONTROL AND SENTINEL LOOP
+for(initial; condition; update) {
+}
+
+FOR LOOP
+for(initialization; condition; update) {
+}
+
+WHILE LOOP
+initialize;
+while(condition) {
+    update;
+}
+
+DO WHILE LOOP
+initialize;
+do {
+    update;
+} while(condition);
