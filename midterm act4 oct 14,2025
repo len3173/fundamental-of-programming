@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+int i, power = 1;
+for (i = 2; power <= 512; i++) {
+power = 2 << i;
+printf("%d\n" , power);
+}
+return 0;
+}
