@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-int i, power=1;
-for (i = 0; power <= 512; i+2) {
-printf("d%\n" , power);
-power=power 2;
+int i, n = 1;
+for (i = 2; n <= 512; i++) {
+n = 2 << i;
+printf("%d\n" , n);
 }
 return 0;
 }
